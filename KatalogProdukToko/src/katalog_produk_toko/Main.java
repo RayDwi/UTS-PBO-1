@@ -9,8 +9,8 @@ public class Main {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        daftarProduk.add(new ProdukElektronik("E001", "Laptop Gaming", 15000000, "Asus", 12));
-        daftarProduk.add(new ProdukPakaian("P001", "Kaos Polos", 75000, "L", "Katun"));
+        daftarProduk.add(new ProdukElektronik("E001", "Gaming Laptop", 15000000, "Acer", 12));
+        daftarProduk.add(new ProdukPakaian("P001", "Kaos Polo", 75000, "L", "Katun"));
         daftarProduk.add(new ProdukPakaian("P002", "Celana Jeans", 300000, "M", "Denim"));
 
         int pilihan = 0;
@@ -31,7 +31,7 @@ public class Main {
 
     private static void tampilkanMenu() {
         System.out.println("\n==================================");
-        System.out.println("Aplikasi Katalog Produk Toko (OOP)");
+        System.out.println("Aplikasi Katalog Produk Toko");
         System.out.println("==================================");
         System.out.println("1. Tambah Data Produk");
         System.out.println("2. Tampilkan Semua Produk");
